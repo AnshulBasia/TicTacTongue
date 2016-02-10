@@ -9,7 +9,7 @@ def get_empty_squares(Grid):
     list=[]
     for i in range(3):
         for j in range(3):
-            if(Grid[i][j]==''):
+            if(Grid[i][j]==' '):
                 list.append((i,j))
     return list
 """
